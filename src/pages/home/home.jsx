@@ -15,8 +15,11 @@ const Home = () => {
     const [mimages,setmImages] = useState([
         './mph3.jpg',
         './mph4.jpg',
-        './mph5.jpg'
+        './mph5.jpg',
+        './mph6.jpg'
     ])
+
+    const isMobile = () => window.innerWidth <= 768;
 
     const imageRef = useRef(null);
 
@@ -40,7 +43,7 @@ const Home = () => {
     const [ref, inView] = useInView();
 
     return (
-        <section id="home" ref={imageRef} style={{ backgroundImage: `url(${images[currentImage]})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <section id="home" ref={imageRef} style={{ backgroundImage: `url(${isMobile() ? mimages[currentImage] : images[currentImage]})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
 
             {
                  navActive? (<div id='navMobile' className={`animate__animated ${inView?'animate__slideInDown animate__slow':''}`} ref={ref}>
