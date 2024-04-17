@@ -1,0 +1,83 @@
+#testimonial{
+    width: 100vw;
+    height: auto;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainH{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.testimonial{
+    width: 31%;
+    height:max-content;
+    border: 0.1px solid rgb(197, 195, 195);
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    text-align: left;
+    gap: 0.5rem;
+    border-radius: 5px;
+}
+
+.testimonial .priImg{
+    width: 100%;
+    min-height: 400px;
+    border-radius: 3px;
+}
+
+.testimonial p{
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+#testimonials{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-left: 10%;
+}
+
+.lCont{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.lCont h1{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.love{
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+@media (min-width: 250px) and (max-width: 1024px){
+    .testimonial{
+        width: 90%;
+    }
+    
+    #testimonials{
+        width: 100%;
+        flex-wrap: nowrap;
+        gap:1rem;
+        flex-direction: column;
+    }
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1250px){
+    #testimonials{
+        width: 90%;
+    }
+    .testimonial{
+        width: 32%;
+    }
+}

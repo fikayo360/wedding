@@ -1,0 +1,273 @@
+#home{
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition:  0.5s ease-in-out
+}
+  
+  .slide.active {
+    transform: translateX(0);
+  }
+  
+  .slide:not(.active) {
+    transform: translateX(-100%);
+  }
+
+#heroNav{
+    top:1rem;
+    position: absolute;
+    width: 90%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+#navLeft,#navRight {
+    display: flex;
+    gap:4rem;
+    justify-content: space-between;
+}
+
+#navLeft li a,#navRight li a{
+  font-size: 1.2rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#navLeft li a:hover,#navRight li a:hover{
+    color: #646cff;
+}
+
+#heroNav h2{
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    line-height: 50px;
+    width: 30%;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#leftArrow,#rightArrow{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    top: 40%;
+}
+
+#leftArrow{
+    left: 2rem;
+}
+
+#rightArrow{
+    right: 2rem;
+}
+
+#heroNav img{
+    width: 15px;
+    height: 15px;
+    display: none;
+}
+
+#navMobile{
+    display: none;
+}
+
+@media (min-width: 250px) and (max-width: 1024px){
+    #navMobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        z-index: 20;
+        position: absolute;
+        align-items: center;
+        background-color: #646cff;
+        color: #ffffff;
+        padding-top: 1rem;
+    }
+
+    #navMobile header{
+        width: 90%;
+        margin-bottom: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+    #navMobile header h1{
+        font-size: 2rem;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    #navMobile header img{
+        width: 15px;
+        height: 15px;
+    }
+
+    #navMobile ul{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding:10px;
+        gap: 3rem;
+    }
+
+    #navMobile ul li a{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: #ffffff;
+
+    }
+
+    #heroNav{
+        width: 100%;
+    }
+
+    #heroNav h2{
+        width: 40%;
+    }
+
+    #navLeft,#navRight{
+        display: none;
+    }
+    #heroNav img{
+        display: block;
+    }
+    #leftArrow,#rightArrow{
+        top: 50%;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 580px){
+    #heroNav h2{
+        font-size: 1.4rem;
+        line-height: 20px;
+        width: 40%;
+    }
+    
+    #leftArrow,#rightArrow{
+        width:30px;
+        height: 30px;
+    }
+
+    #heroNav img{
+        width: 15px;
+        height: 15px;
+    }
+    #leftArrow{
+        left: 0.9rem;
+    }
+    
+    #rightArrow{
+        right: 0.9rem;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px){
+    #heroNav h2{
+        font-size: 1.6rem;
+        line-height: 25px;
+    }
+    
+    #leftArrow,#rightArrow{
+        width:35px;
+        height: 35px;
+    }
+
+    #heroNav img{
+        width: 18px;
+        height: 18px;
+    }
+    #leftArrow{
+        left: 1rem;
+    }
+    
+    #rightArrow{
+        right: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #heroNav h2{
+        font-size: 2.5rem;
+        line-height: 30px;
+    }
+
+    #heroNav img{
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1225px){
+    #navLeft,#navRight {
+        gap:3rem;
+    }   
+
+    #heroNav h2{
+        font-size: 3rem;
+        line-height: 45px;
+    }
+}
+
+@media (min-width: 1800px){
+    #heroNav h2{
+        font-size:5rem;
+    }
+
+    #navLeft,#navRight {
+        gap:5.5rem;
+    }  
+
+    #navLeft li a,#navRight li a{
+        font-size: 1.4rem;
+      }
+}
+
+
+@media (min-width:640px) and (max-width:768px){
+    #navMobile header{
+        margin-bottom: 3rem;
+    }
+
+    #navMobile header h1{
+        font-size: 2.6rem;
+    }
+
+    #navMobile header img{
+        width: 18px;
+        height: 18px;
+    }
+
+    #navMobile ul li a{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    #navMobile header{
+        margin-bottom: 4rem;
+    }
+
+    #navMobile header h1{
+        font-size: 3.5rem;
+    }
+
+    #navMobile header img{
+        width: 20px;
+        height: 20px;
+    }
+
+    #navMobile ul li a{
+        font-size: 2.8rem;
+    }
+}

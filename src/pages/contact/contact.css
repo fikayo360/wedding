@@ -1,0 +1,111 @@
+#contact{
+    width: 100vw;
+    min-height:60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(327.21deg, rgba(33, 0, 75, 0.24) 3.65%, rgba(60, 0, 136, 0) 40.32%),
+ linear-gradient(245.93deg, rgba(209, 21, 111, 0.16) 0%, rgba(209, 25, 80, 0) 36.63%), linear-gradient(147.6deg, rgba(58, 19, 255, 0) 29.79%,
+  rgba(98, 19, 255, 0.01) 85.72%), #13111C;
+}
+
+#contact h1{
+     font-size: 2.2rem;
+     font-weight: bold;
+     margin-bottom: 2rem;
+     color: #FFFFFF;
+}
+
+#contact form{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.6rem;
+}
+
+#contact form input{
+    height: 2.8rem;
+}
+
+#contact form textarea{
+    height: 6rem;
+}
+
+#contact form input,#contact form textarea{
+    width: 25rem;
+    font-size: 0.8rem;
+    padding: 8px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: #222121;
+}
+
+#contact form textarea::placeholder,#contact form input::placeholder{
+    font-size: 0.9rem;
+    color: rgb(15, 14, 14);
+
+}
+
+#contact form button{
+    width: 8rem;
+    height: 2.6rem;
+    background-color: rgb(176, 112, 189);
+    color:#0f0d0d;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#contact form button:hover{
+    background-color: #646cff;
+    color: #FFFFFF;
+}
+
+.custom-shape-divider-top-1713155344 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1713155344 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 58px;
+}
+
+.custom-shape-divider-top-1713155344 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media (min-width: 250px) and (max-width: 1417px){
+    .custom-shape-divider-top-1713155344{
+        display: none;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 1024px){
+    #contact form{
+        width: 100%;
+        gap:1rem;
+    }
+
+    #contact form input,#contact form textarea{
+        width: 70%;
+    }
+    #contact form button{
+        width: 50%;
+        height: 3rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+}

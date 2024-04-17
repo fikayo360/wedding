@@ -1,0 +1,74 @@
+#about{
+    width: 100vw;
+    height: auto;
+    padding: 4rem 0;
+    padding-left: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    background-color:rgb(59, 73, 63);;
+}
+
+.aboutH1{
+    font-size: 2.7rem;
+    font-weight: bold;
+    width: 70%;
+}
+
+#about p, #about a{
+    font-size: 1.1rem;
+}
+
+#about p{
+    width: 70%;
+    font-weight: bold;
+}
+
+#about a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#about a:hover{
+   color: rgb(202, 16, 78);
+}
+
+#about p, #about a,.aboutH1{
+   color: #ffffff;
+}
+
+@media (min-width: 250px) and (max-width: 1024px){
+    #about{
+        padding-left:2rem;
+    }
+    .aboutH1{
+        width: 90%;
+    }
+    
+    #about p, #about a{
+        font-size: 1.1rem;
+    }
+    
+    #about p{
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .aboutH1{
+        width: 80%;
+    }
+    #about{
+        padding-left:15%;
+    }
+    
+   
+    
+    #about p{
+        width: 80%;
+    }
+}

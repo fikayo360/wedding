@@ -1,0 +1,53 @@
+#extra{
+    display: flex;
+    width: 100vw;
+    min-height: 50vh;
+    padding: 6rem 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 37, 41);
+}
+
+#extra p{
+    width: 40%;
+    margin-bottom: 1rem;
+    font-size:1rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#extra h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#extra p,#extra h1{
+    color: #ffffff;
+}
+
+@media (min-width: 250px) and (max-width: 1024px){
+    #extra p{
+        width: 90%;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 480px){
+    #extra p{
+        font-size:0.8rem;
+        line-height: 25px;
+    }
+    
+    #extra h1{
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1300px){
+    #extra p{
+        width: 55%;
+    }
+}
