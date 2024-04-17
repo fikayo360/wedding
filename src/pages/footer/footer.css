@@ -72,7 +72,7 @@
 
 @media (min-width: 250px) and (max-width: 1024px){
     #footer{
-        padding: 1.5rem 0;
+        padding: 0.2rem 0;
     }
 
     #footerWrap{
@@ -84,8 +84,10 @@
     }
     
     #footerLeft,#footerRight{
-        width: 80%;
         gap: 1rem;
+        height: auto;
+        width: max-content;
+        padding:0 1rem;
     }
     #footerRight{
         align-items: flex-start;
@@ -104,15 +106,6 @@
     #footerLeft p{
         font-size: 0.8rem;
     }
-
-    #footerRight ul{
-        width: 80%;
-        gap: 0.7rem;
-    }
-
-    #footerRight ul li a{
-        font-size: 1rem;
-    }
     
     #socialIcons{
         gap:0.8rem
@@ -123,6 +116,26 @@
         height: 1.1rem;
     }
    
+}
+
+@media (min-width: 250px) and (max-width: 480px){
+    #footerRight ul li a{
+        font-size: 0.8rem;
+    }
+    #footerRight ul{
+        width: 80%;
+        gap: 0.6rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #footerRight ul li a{
+        font-size: 0.9rem;
+    }
+    #footerRight ul{
+        width: 80%;
+        gap: 0.7rem;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){

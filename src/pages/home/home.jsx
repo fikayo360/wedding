@@ -11,6 +11,13 @@ const Home = () => {
         './ph6.jpg',
         './ph7.jpg',
     ])
+
+    const [mimages,setmImages] = useState([
+        './mph3.jpg',
+        './mph4.jpg',
+        './mph5.jpg'
+    ])
+
     const imageRef = useRef(null);
 
     const handleNext = () => {
