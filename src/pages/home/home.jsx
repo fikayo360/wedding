@@ -13,7 +13,6 @@ const Home = () => {
     ])
 
     const [mimages,setmImages] = useState([
-        './mph3.jpg',
         './mph4.jpg',
         './mph5.jpg',
         './mph6.jpg'

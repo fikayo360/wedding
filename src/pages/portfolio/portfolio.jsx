@@ -32,6 +32,18 @@ const Portfolio = () => {
                 <div className='portfolio'>
                     <img src="https://www.bellanaijaweddings.com/wp-content/uploads/2020/08/Daniella-Angelo-BellaNaija-Weddings.096.jpg" alt="" />
                 </div>
+                <div className='portfolio'>
+                    <img src="https://www.brides.com/thmb/kfFE06MSaLHpJt_oxobOUa4neSM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/33814_05-eb9a2e4cc91544c5b78cc623c3c56222.jpg" alt="" />
+                </div>
+                <div className='portfolio'>
+                    <img src="https://abigailevelinephotography.com/wp-content/uploads/2023/01/Intimate-Rustic-Wedding-Abigail-Eveline-1.jpg" alt="" />
+                </div>
+                <div className='portfolio'>
+                    <img src="https://assets.easyweddings.com/files/2017/06/07101647/Most-popular-wedding-venues-Adelaide-SA-Serafino-McLaren-Vale-1.jpeg" alt="" />
+                </div>
+                <div className='portfolio'>
+                    <img src="https://i.pinimg.com/736x/25/2c/8d/252c8db6d32e5f7bc30bd78c213f0547.jpg" alt="" />
+                </div>
             </div>
         </section>
     )

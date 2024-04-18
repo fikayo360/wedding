@@ -8,9 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
                     sequence={[
                         'hi i am Rychard.',
                         1000,
-                        'hi i am Rychard.',
-                        1000,
-                        'hi i am Rychard.',
+                        'A wedding photographer.',
                         1000,
                     ]}
                     wrapper="h1"
