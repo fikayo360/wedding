@@ -24,7 +24,7 @@ import { TypeAnimation } from 'react-type-animation';
             and to tell stories that will be cherished for generations to come. Whether it's a stolen glance, a tender embrace, or a heartfelt laugh,
              I strive to capture the essence of every moment, turning fleeting instances into timeless treasures.
              So, if you're looking for more than just a photographer – if you're searching for a partner who will capture the essence of your love story with creativity,
-              passion, and unparalleled dedication – then look no further than Yulia's Photography. Let's embark on this journey together, and let's create memories that will 
+              passion, and unparalleled dedication – then look no further than Hd's Photography. Let's embark on this journey together, and let's create memories that will 
               last a lifetime.
               </p>
         </section>
