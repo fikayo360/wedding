@@ -3,7 +3,7 @@ import './portfolio.css'
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h1>some Awesome photos</h1>
+            <h1>My works</h1>
             <div id='portfolios'>
                 <div className='portfolio'>
                     <img src="https://www.bellanaijaweddings.com/wp-content/uploads/2020/07/OcTillInfinity-WhiteWedding-BellaNaija-Weddings.066-1080x805.jpg" alt="" />
